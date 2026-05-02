@@ -16,6 +16,8 @@
 .recipe-card-image {
   height: 180px;
   background: linear-gradient(135deg, #2D6A4F 0%, #74C69D 100%);
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: flex-end;
   padding: 0.75rem;

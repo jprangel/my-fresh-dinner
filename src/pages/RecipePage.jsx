@@ -29,7 +29,10 @@ export default function RecipePage() {
         <Link to="/" className="back-link no-print">← Back to recipes</Link>
 
         <div className="recipe-hero">
-          <div className="recipe-hero-image">
+          <div
+            className="recipe-hero-image"
+            style={recipe.image ? { backgroundImage: `url(${import.meta.env.BASE_URL}${recipe.image})` } : undefined}
+          >
             <span className="recipe-cuisine-tag">{recipe.cuisine}</span>
           </div>
           <div className="recipe-hero-info">

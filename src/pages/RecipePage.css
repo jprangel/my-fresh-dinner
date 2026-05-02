@@ -34,6 +34,8 @@
 
 .recipe-hero-image {
   background: linear-gradient(135deg, #1B4332 0%, #52B788 100%);
+  background-size: cover;
+  background-position: center;
   min-height: 320px;
   display: flex;
   align-items: flex-end;

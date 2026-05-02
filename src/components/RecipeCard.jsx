@@ -4,7 +4,10 @@ import './RecipeCard.css'
 export default function RecipeCard({ recipe }) {
   return (
     <Link to={`/recipe/${recipe.id}`} className="recipe-card">
-      <div className="recipe-card-image">
+      <div
+        className="recipe-card-image"
+        style={recipe.image ? { backgroundImage: `url(${import.meta.env.BASE_URL}${recipe.image})` } : undefined}
+      >
         <span className="cuisine-badge">{recipe.cuisine}</span>
       </div>
       <div className="recipe-card-body">
