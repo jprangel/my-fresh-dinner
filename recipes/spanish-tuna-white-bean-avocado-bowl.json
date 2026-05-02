@@ -1,0 +1,45 @@
+{
+  "id": "spanish-tuna-white-bean-avocado-bowl",
+  "title": "Spanish Tuna, White Bean & Avocado Bowl",
+  "description": "A no-cook Mediterranean bowl packed with protein-rich tuna and white beans, creamy avocado, and a bright lemon dressing.",
+  "cuisine": "European",
+  "cookingTime": 0,
+  "prepTime": 5,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/spanish-tuna-white-bean-avocado-bowl.png",
+  "tags": ["tuna", "mediterranean", "no-cook", "high-protein", "fat-loss"],
+  "ingredients": [
+    { "name": "Canned tuna in spring water", "quantity": "2 x 145g tins" },
+    { "name": "Canned cannellini beans", "quantity": "1 x 400g tin, drained" },
+    { "name": "Avocado", "quantity": "1 ripe" },
+    { "name": "Cherry tomatoes", "quantity": "150g" },
+    { "name": "Baby spinach", "quantity": "80g" },
+    { "name": "Red onion", "quantity": "1/4" },
+    { "name": "Capers", "quantity": "1 tbsp" },
+    { "name": "Lemon", "quantity": "1" },
+    { "name": "Extra virgin olive oil", "quantity": "1 tbsp" },
+    { "name": "Black pepper", "quantity": "to taste" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Drain and rinse the cannellini beans and tuna." },
+    { "step": 2, "instruction": "Halve the cherry tomatoes, thinly slice the red onion, and cube the avocado." },
+    { "step": 3, "instruction": "Arrange spinach as the base in two bowls." },
+    { "step": 4, "instruction": "Top with tuna, cannellini beans, cherry tomatoes, red onion, avocado, and capers." },
+    { "step": 5, "instruction": "Whisk together lemon juice and olive oil, then drizzle over both bowls." },
+    { "step": 6, "instruction": "Season with black pepper and serve immediately." }
+  ],
+  "shoppingList": [
+    { "name": "Canned tuna in spring water", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Cannellini beans", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Avocado", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Cherry tomatoes", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Baby spinach", "store": "Tesco Ireland", "url": "https://www.tesco.ie" }
+  ],
+  "nutrition": {
+    "calories": 520,
+    "protein": "44g",
+    "carbs": "32g",
+    "fat": "22g"
+  }
+}

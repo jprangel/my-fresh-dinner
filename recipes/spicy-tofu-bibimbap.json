@@ -1,0 +1,46 @@
+{
+  "id": "spicy-tofu-bibimbap",
+  "title": "Spicy Tofu Bibimbap with Mushrooms & Pickled Carrot",
+  "description": "Korean rice bowl topped with crispy soy-glazed tofu, sautéed kale and mushrooms, quick-pickled carrot ribbons, and a gochujang sesame drizzle.",
+  "cuisine": "Asian",
+  "cookingTime": 15,
+  "prepTime": 5,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/spicy-tofu-bibimbap.png",
+  "tags": ["tofu", "asian", "vegetarian", "high-protein", "korean"],
+  "ingredients": [
+    { "name": "Firm tofu", "quantity": "280g" },
+    { "name": "Jasmine rice", "quantity": "150g" },
+    { "name": "Kale", "quantity": "80g" },
+    { "name": "Mushrooms", "quantity": "150g" },
+    { "name": "Carrot", "quantity": "1" },
+    { "name": "Garlic clove", "quantity": "1" },
+    { "name": "Fresh ginger", "quantity": "1 thumb" },
+    { "name": "Soy sauce", "quantity": "2 tbsp" },
+    { "name": "Gochujang paste", "quantity": "1 tbsp" },
+    { "name": "Apple cider vinegar", "quantity": "1 tbsp" },
+    { "name": "Sesame oil", "quantity": "1 tbsp" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Grate ginger; fry briefly in oil, add rice with 300ml salted water; bring to boil, cover, simmer 12 minutes, then rest off heat for 12 minutes." },
+    { "step": 2, "instruction": "Drain and cube tofu; coat in soy sauce then fry in hot oil for 6–8 minutes, turning until crispy on all sides." },
+    { "step": 3, "instruction": "Peel carrot into ribbons with a peeler; toss with apple cider vinegar, a pinch of salt and sugar, and a splash of water to quick-pickle." },
+    { "step": 4, "instruction": "Mix sesame oil, gochujang paste, and remaining soy sauce in a small bowl to make the sauce." },
+    { "step": 5, "instruction": "Sauté kale, mushrooms, and minced garlic in a little oil for 4–5 minutes until softened; season." },
+    { "step": 6, "instruction": "Divide rice between bowls; top with pickled carrot, sautéed vegetables, and tofu; drizzle with gochujang sauce." }
+  ],
+  "shoppingList": [
+    { "name": "Firm tofu", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" },
+    { "name": "Jasmine rice", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Mushrooms", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Kale", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Gochujang paste", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" }
+  ],
+  "nutrition": {
+    "calories": 617,
+    "protein": "29g",
+    "carbs": "80g",
+    "fat": "22g"
+  }
+}

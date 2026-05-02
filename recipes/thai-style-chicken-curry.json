@@ -1,0 +1,44 @@
+{
+  "id": "thai-style-chicken-curry",
+  "title": "Thai Style Chicken Curry with Courgette & Fragrant Rice",
+  "description": "Creamy, fragrant Thai red curry with tender diced chicken and courgette simmered in coconut milk, served over lime-zested jasmine rice.",
+  "cuisine": "Asian",
+  "cookingTime": 15,
+  "prepTime": 5,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/thai-style-chicken-curry.png",
+  "tags": ["chicken", "asian", "curry", "spicy", "quick-meal"],
+  "ingredients": [
+    { "name": "Diced Irish chicken breast", "quantity": "260g" },
+    { "name": "Jasmine rice", "quantity": "150g" },
+    { "name": "Courgette", "quantity": "1" },
+    { "name": "Onion", "quantity": "1" },
+    { "name": "Red chilli", "quantity": "1" },
+    { "name": "Red Thai curry paste", "quantity": "2 tbsp" },
+    { "name": "Coconut milk", "quantity": "1 x 400ml tin" },
+    { "name": "Lime", "quantity": "1" },
+    { "name": "Thai spice mix", "quantity": "1 tsp" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Bring 300ml salted water to a boil; add rice, cover, simmer for 12 minutes, then rest covered for 12 minutes." },
+    { "step": 2, "instruction": "Cube courgette (1cm pieces), slice onion thinly, deseed and slice chilli, and zest the lime." },
+    { "step": 3, "instruction": "Heat oil in a large pan over medium-high; brown chicken for 3–4 minutes, then add onion and courgette for 2 more minutes." },
+    { "step": 4, "instruction": "Add Thai spice mix, curry paste, and half the chilli; cook 30 seconds, then pour in coconut milk." },
+    { "step": 5, "instruction": "Simmer for 8–10 minutes until chicken is cooked through; squeeze in lime juice and season." },
+    { "step": 6, "instruction": "Fluff rice with lime zest, ladle curry over the top, and garnish with remaining chilli slices." }
+  ],
+  "shoppingList": [
+    { "name": "Irish chicken breast", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Jasmine rice", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Coconut milk", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Red Thai curry paste", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" },
+    { "name": "Courgette", "store": "Tesco Ireland", "url": "https://www.tesco.ie" }
+  ],
+  "nutrition": {
+    "calories": 650,
+    "protein": "40g",
+    "carbs": "79g",
+    "fat": "21g"
+  }
+}

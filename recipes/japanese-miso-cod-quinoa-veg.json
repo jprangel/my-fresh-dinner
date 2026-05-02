@@ -7,6 +7,7 @@
   "prepTime": 10,
   "difficulty": "Medium",
   "servings": 2,
+  "image": "recipes/images/japanese-miso-cod-quinoa-veg.avif",
   "tags": ["cod", "asian", "high-protein", "healthy-fats", "muscle-gain"],
   "ingredients": [
     { "name": "Cod fillets", "quantity": "300g" },

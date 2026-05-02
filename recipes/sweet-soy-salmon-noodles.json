@@ -1,0 +1,45 @@
+{
+  "id": "sweet-soy-salmon-noodles",
+  "title": "Sweet Soy Salmon Noodles with Pan-Fried Bell Pepper",
+  "description": "Heart-healthy salmon in a sweet soy and hoisin marinade tossed with egg noodles, bell pepper, and a kick of sweet chilli.",
+  "cuisine": "Asian",
+  "cookingTime": 15,
+  "prepTime": 5,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/sweet-soy-salmon-noodles.png",
+  "tags": ["salmon", "asian", "high-protein", "noodles"],
+  "ingredients": [
+    { "name": "Salmon fillets", "quantity": "200g" },
+    { "name": "Egg noodles", "quantity": "150g" },
+    { "name": "Bell pepper", "quantity": "1" },
+    { "name": "Onions", "quantity": "2" },
+    { "name": "Fresh ginger", "quantity": "1 thumb" },
+    { "name": "Sweet chilli sauce", "quantity": "2 tbsp" },
+    { "name": "Soy sauce", "quantity": "1 tbsp" },
+    { "name": "Hoisin sauce", "quantity": "2 tbsp" },
+    { "name": "Ketchup", "quantity": "2 tbsp" },
+    { "name": "Olive oil", "quantity": "1 tsp" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Boil salted water and cook noodles 4–6 minutes until softened; drain and toss with a little oil." },
+    { "step": 2, "instruction": "Pan-sear salmon skin-side down for 4–5 minutes, then flip and cook 3–4 minutes until opaque." },
+    { "step": 3, "instruction": "Slice onion and bell pepper; grate ginger." },
+    { "step": 4, "instruction": "Sauté onion and pepper for 4–5 minutes until soft; add ginger and cook 1 minute more." },
+    { "step": 5, "instruction": "Flake salmon into the pan; add soy sauce, hoisin, ketchup, a splash of water, and half the sweet chilli sauce." },
+    { "step": 6, "instruction": "Toss noodles in the sauce to coat, divide into bowls, and drizzle with remaining sweet chilli sauce." }
+  ],
+  "shoppingList": [
+    { "name": "Salmon fillets", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Egg noodles", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Bell pepper", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Hoisin sauce", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" },
+    { "name": "Sweet chilli sauce", "store": "Tesco Ireland", "url": "https://www.tesco.ie" }
+  ],
+  "nutrition": {
+    "calories": 638,
+    "protein": "35g",
+    "carbs": "83g",
+    "fat": "19g"
+  }
+}
