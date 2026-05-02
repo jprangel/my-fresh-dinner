@@ -22,12 +22,12 @@
     { "name": "Sesame oil", "quantity": "1 tsp" }
   ],
   "steps": [
-    { "step": 1, "instruction": "Cook brown rice for 20–25 minutes following package instructions." },
-    { "step": 2, "instruction": "Steam broccoli florets and sliced carrot for 5–6 minutes until tender." },
-    { "step": 3, "instruction": "Pan-sear the salmon fillets for 4–5 minutes per side over medium-high heat." },
-    { "step": 4, "instruction": "Mix together peanut butter, soy sauce, honey, grated ginger, minced garlic, and sesame oil to make the sauce." },
-    { "step": 5, "instruction": "Pour the peanut sauce over the salmon and cook for 2 more minutes, letting it coat the fish." },
-    { "step": 6, "instruction": "Serve salmon and sauce over a bed of rice with the steamed vegetables on the side." }
+    { "step": 1, "instruction": "Rinse 120g brown rice under cold water, then add to a saucepan with 300ml cold salted water. Bring to a boil, then reduce to a low simmer, cover with a lid, and cook for 20–25 minutes until the water is fully absorbed. Remove from heat and leave covered for 5 minutes to steam through." },
+    { "step": 2, "instruction": "Cut the broccoli into small bite-sized florets (about 3–4cm each), discarding the thick stalk. Peel the carrot and slice it diagonally into thin rounds, about 3–4mm thick. Place both in a steamer basket over boiling water, cover, and steam for 5–6 minutes until just tender but still with a slight bite." },
+    { "step": 3, "instruction": "Pat the salmon fillets dry with kitchen paper — this helps them sear rather than steam. Heat a non-stick frying pan over medium-high heat until hot, add a small drizzle of oil, then place the fillets skin-side down. Press gently for the first 30 seconds to stop the skin curling. Cook for 4–5 minutes until the skin is crispy and golden, then flip and cook for a further 3–4 minutes until the flesh is opaque throughout." },
+    { "step": 4, "instruction": "While the salmon cooks, make the sauce: in a small bowl, combine 1 tbsp peanut butter, 1 tbsp soy sauce, 1 tsp honey, 1 tsp freshly grated ginger, 1 minced garlic clove, and 1 tsp sesame oil. Stir well until smooth — if it looks too thick, add 1–2 tbsp warm water to loosen it." },
+    { "step": 5, "instruction": "Reduce the heat to low, pour the peanut sauce directly over the salmon in the pan, and cook for 2 more minutes, spooning the sauce over the fish as it warms so it coats the fillets evenly." },
+    { "step": 6, "instruction": "Fluff the rice with a fork and divide between two bowls. Place a salmon fillet on top of each, spoon over any remaining sauce from the pan, and arrange the steamed broccoli and carrot on the side." }
   ],
   "shoppingList": [
     { "name": "Salmon fillets", "store": "Tesco Ireland", "url": "https://www.tesco.ie/groceries/en-IE/products/299965786" },

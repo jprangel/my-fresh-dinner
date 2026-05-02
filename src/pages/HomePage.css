@@ -1,7 +1,10 @@
 .home-hero {
-  background: linear-gradient(135deg, #e8f5e9 0%, #fff8e1 100%);
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('/my-fresh-dinner/background.avif') center / cover no-repeat;
   padding: 4rem 2rem;
   text-align: center;
+  color: white;
 }
 
 .home-hero-inner {
@@ -18,12 +21,12 @@
 }
 
 .home-hero h1 span {
-  color: var(--green);
+  color: #a8e6b8;
 }
 
 .home-hero p {
   font-size: 1.05rem;
-  color: #555;
+  color: rgba(255, 255, 255, 0.85);
   line-height: 1.6;
   margin-bottom: 1.75rem;
 }
@@ -52,15 +55,16 @@
 }
 
 .hero-tag {
-  background: var(--white);
-  border: 0.5px solid #ddd;
+  background: rgba(255, 255, 255, 0.15);
+  border: 0.5px solid rgba(255, 255, 255, 0.35);
   border-radius: 50px;
   padding: 5px 12px 5px 8px;
   font-size: 13px;
-  color: #555;
+  color: white;
   display: flex;
   align-items: center;
   gap: 6px;
+  backdrop-filter: blur(4px);
 }
 
 .hero-tag-favicon {
