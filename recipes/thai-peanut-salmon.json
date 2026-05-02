@@ -7,6 +7,7 @@
   "prepTime": 10,
   "difficulty": "Easy",
   "servings": 2,
+  "image": "recipes/images/thai-peanut-salmon.png",
   "tags": ["salmon", "asian", "healthy", "gluten-free"],
   "ingredients": [
     { "name": "Salmon fillets", "quantity": "2 (~240g total)" },
