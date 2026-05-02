@@ -1,0 +1,98 @@
+.recipe-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.recipe-card-image {
+  height: 180px;
+  background: linear-gradient(135deg, #2D6A4F 0%, #74C69D 100%);
+  display: flex;
+  align-items: flex-end;
+  padding: 0.75rem;
+}
+
+.cuisine-badge {
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: 20px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.recipe-card-body {
+  padding: 1rem 1.25rem 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.recipe-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text);
+}
+
+.recipe-card-desc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.recipe-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.25rem;
+}
+
+.meta-time {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.meta-time::before {
+  content: '⏱ ';
+}
+
+.difficulty-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.difficulty-badge.difficulty-easy {
+  background: #D8F3DC;
+  color: #2D6A4F;
+}
+
+.difficulty-badge.difficulty-medium {
+  background: #FFF3CD;
+  color: #856404;
+}
+
+.difficulty-badge.difficulty-hard {
+  background: #FCE4EC;
+  color: #C62828;
+}

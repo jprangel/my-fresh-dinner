@@ -1,0 +1,12 @@
+[
+  {
+    "id": "thai-peanut-salmon",
+    "title": "Thai Peanut Salmon with Veg & Rice",
+    "description": "Asian-inspired salmon with a rich peanut sauce, steamed vegetables, and brown rice.",
+    "cuisine": "Asian",
+    "cookingTime": 40,
+    "prepTime": 10,
+    "difficulty": "Easy",
+    "servings": 2
+  }
+]
