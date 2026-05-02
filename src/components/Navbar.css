@@ -38,6 +38,11 @@
   color: var(--green);
 }
 
+.nav-links .nav-active {
+  color: var(--green);
+  font-weight: 500;
+}
+
 @media (max-width: 600px) {
   .nav-links {
     display: none;
