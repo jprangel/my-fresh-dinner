@@ -1,7 +1,10 @@
 .about-hero {
-  background: linear-gradient(135deg, #e8f5e9 0%, #fff8e1 100%);
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('/my-fresh-dinner/background.avif') center / cover no-repeat;
   padding: 5rem 2rem 4rem;
   text-align: center;
+  color: white;
 }
 
 .about-hero-icon {
@@ -17,12 +20,12 @@
 }
 
 .about-hero h1 span {
-  color: var(--green);
+  color: #a8e6b8;
 }
 
 .about-hero p {
   font-size: 1.05rem;
-  color: #555;
+  color: rgba(255, 255, 255, 0.85);
   max-width: 560px;
   margin: 0 auto;
   line-height: 1.7;
