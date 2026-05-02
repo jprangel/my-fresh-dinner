@@ -3,46 +3,44 @@ import RecipeCard from '../components/RecipeCard'
 import FilterBar from '../components/FilterBar'
 import './HomePage.css'
 
-function matchesTime(cookingTime, range) {
-  if (range === 'all') return true
-  if (range === 'under20') return cookingTime < 20
-  if (range === '20to40') return cookingTime >= 20 && cookingTime <= 40
-  if (range === 'over40') return cookingTime > 40
-  return true
-}
+const STORES = ['Tesco', 'SuperValu', 'Lidl', 'Aldi', 'Asia Market']
 
 export default function HomePage() {
   const [recipes, setRecipes] = useState([])
-  const [filters, setFilters] = useState({ cuisine: 'all', time: 'all' })
+  const [activeFilter, setActiveFilter] = useState('all')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}recipes/index.json`)
       .then(r => r.json())
-      .then(data => {
-        setRecipes(data)
-        setLoading(false)
-      })
+      .then(data => { setRecipes(data); setLoading(false) })
   }, [])
 
   const cuisines = [...new Set(recipes.map(r => r.cuisine))]
 
   const filtered = recipes.filter(r => {
-    if (filters.cuisine !== 'all' && r.cuisine !== filters.cuisine) return false
-    if (!matchesTime(r.cookingTime, filters.time)) return false
-    return true
+    if (activeFilter === 'all') return true
+    if (activeFilter === 'quick') return (r.cookingTime + r.prepTime) <= 30
+    return r.cuisine === activeFilter
   })
 
   return (
     <>
       <header className="home-hero no-print">
         <div className="home-hero-inner">
-          <h1>Fresh Recipes for Every Night</h1>
-          <p>Simple, healthy meals you'll love to cook.</p>
+          <h1>Cook Fresh.<br /><span>Shop Smart.</span></h1>
+          <p>Discover delicious recipes and buy every ingredient directly from your favourite Irish supermarket.</p>
+          <a href="#recipes" className="hero-btn">Browse Recipes</a>
+          <div className="hero-tags">
+            {STORES.map(s => (
+              <span key={s} className="hero-tag">🛒 {s}</span>
+            ))}
+          </div>
         </div>
       </header>
-      <FilterBar cuisines={cuisines} filters={filters} onChange={setFilters} />
-      <main className="home-main">
+      <FilterBar cuisines={cuisines} activeFilter={activeFilter} onChange={setActiveFilter} />
+      <main className="home-main" id="recipes">
+        <div className="section-title">This week's recipes</div>
         {loading ? (
           <p className="state-text">Loading recipes...</p>
         ) : filtered.length === 0 ? (

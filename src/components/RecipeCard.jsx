@@ -5,19 +5,25 @@ export default function RecipeCard({ recipe }) {
   return (
     <Link to={`/recipe/${recipe.id}`} className="recipe-card">
       <div
-        className="recipe-card-image"
-        style={recipe.image ? { backgroundImage: `url(${import.meta.env.BASE_URL}${recipe.image})` } : undefined}
+        className="card-img"
+        style={recipe.image ? {
+          backgroundImage: `url(${import.meta.env.BASE_URL}${recipe.image})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        } : undefined}
       >
-        <span className="cuisine-badge">{recipe.cuisine}</span>
+        {!recipe.image && <span className="card-emoji">🍽</span>}
       </div>
-      <div className="recipe-card-body">
-        <h3 className="recipe-card-title">{recipe.title}</h3>
-        <p className="recipe-card-desc">{recipe.description}</p>
-        <div className="recipe-card-meta">
-          <span className="meta-time">{recipe.cookingTime} min</span>
-          <span className={`difficulty-badge difficulty-${recipe.difficulty.toLowerCase()}`}>
-            {recipe.difficulty}
-          </span>
+      <div className="card-body">
+        <div className="card-tags">
+          <span className="tag tag-cuisine">{recipe.cuisine}</span>
+          <span className="tag tag-diff">{recipe.difficulty}</span>
+        </div>
+        <div className="card-title">{recipe.title}</div>
+        <div className="card-desc">{recipe.description}</div>
+        <div className="card-meta">
+          <span>⏱ {recipe.cookingTime} min</span>
+          <span>👤 {recipe.servings} servings</span>
         </div>
       </div>
     </Link>

@@ -2,6 +2,14 @@ import { useParams, Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import './RecipePage.css'
 
+const STORE_CLASS = {
+  'Tesco Ireland': 'tesco',
+  'SuperValu Ireland': 'supervalu',
+  'Lidl Ireland': 'lidl',
+  'Aldi Ireland': 'aldi',
+  'Asia Market Ireland': 'asia',
+}
+
 export default function RecipePage() {
   const { id } = useParams()
   const [recipe, setRecipe] = useState(null)
@@ -31,9 +39,13 @@ export default function RecipePage() {
         <div className="recipe-hero">
           <div
             className="recipe-hero-image"
-            style={recipe.image ? { backgroundImage: `url(${import.meta.env.BASE_URL}${recipe.image})` } : undefined}
+            style={recipe.image ? {
+              backgroundImage: `url(${import.meta.env.BASE_URL}${recipe.image})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            } : undefined}
           >
-            <span className="recipe-cuisine-tag">{recipe.cuisine}</span>
+            {!recipe.image && <span>🍽</span>}
           </div>
           <div className="recipe-hero-info">
             <div className="recipe-tags">
@@ -105,9 +117,14 @@ export default function RecipePage() {
               <ul className="shopping-list">
                 {recipe.shoppingList.map((item, i) => (
                   <li key={i}>
-                    <a href={item.url} target="_blank" rel="noopener noreferrer" className="shopping-link">
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`shopping-link ${STORE_CLASS[item.store] || ''}`}
+                    >
                       <span className="shopping-name">{item.name}</span>
-                      <span className="shopping-store">{item.store} →</span>
+                      <span className="shopping-store-label">{item.store} →</span>
                     </a>
                   </li>
                 ))}

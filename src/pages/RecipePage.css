@@ -1,6 +1,6 @@
 .recipe-page {
-  padding: 1.5rem;
-  min-height: calc(100vh - 64px);
+  padding: 1.5rem 2rem;
+  min-height: calc(100vh - 60px);
 }
 
 .recipe-page-inner {
@@ -12,13 +12,13 @@
   display: inline-block;
   color: var(--green);
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1.25rem;
   transition: color 0.15s;
 }
 
 .back-link:hover {
-  color: var(--green-mid);
+  color: var(--green-dark);
 }
 
 /* Hero */
@@ -27,34 +27,24 @@
   grid-template-columns: 1fr 1.3fr;
   background: var(--white);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  border: 0.5px solid var(--border);
   overflow: hidden;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .recipe-hero-image {
-  background: linear-gradient(135deg, #1B4332 0%, #52B788 100%);
+  background: linear-gradient(135deg, var(--green-light) 0%, var(--amber-light) 100%);
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-position: center;
-  min-height: 320px;
-  display: flex;
-  align-items: flex-end;
-  padding: 1rem;
-}
-
-.recipe-cuisine-tag {
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 0.3rem 0.75rem;
-  border-radius: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.6px;
+  font-size: 6rem;
 }
 
 .recipe-hero-info {
-  padding: 2rem 2rem 2rem 1.75rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -67,22 +57,20 @@
 }
 
 .recipe-tag {
-  background: #D8F3DC;
-  color: var(--green);
-  font-size: 0.7rem;
-  font-weight: 700;
-  padding: 0.2rem 0.6rem;
-  border-radius: 20px;
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-weight: 500;
+  background: var(--green-light);
+  color: #1e5e2a;
   text-transform: capitalize;
-  letter-spacing: 0.3px;
 }
 
 .recipe-hero-info h1 {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-  font-weight: 800;
+  font-size: clamp(1.25rem, 2.5vw, 1.7rem);
+  font-weight: 700;
   line-height: 1.2;
   color: var(--text);
-  letter-spacing: -0.3px;
 }
 
 .recipe-description {
@@ -97,7 +85,7 @@
   flex-wrap: wrap;
   margin-top: 0.5rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--border);
+  border-top: 0.5px solid var(--border-light);
 }
 
 .meta-block {
@@ -131,7 +119,7 @@
 .recipe-section {
   background: var(--white);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  border: 0.5px solid var(--border);
   padding: 1.5rem;
   margin-bottom: 1.25rem;
 }
@@ -144,7 +132,7 @@
   color: var(--text);
   margin-bottom: 1rem;
   padding-bottom: 0.6rem;
-  border-bottom: 2px solid var(--green);
+  border-bottom: 1.5px solid var(--green);
   display: flex;
   align-items: baseline;
   gap: 0.5rem;
@@ -163,15 +151,14 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0;
 }
 
 .ingredient-item {
   display: flex;
   gap: 0.75rem;
-  font-size: 0.9rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid var(--border);
+  font-size: 0.875rem;
+  padding: 0.55rem 0;
+  border-bottom: 0.5px solid var(--border-light);
 }
 
 .ingredient-item:last-child {
@@ -186,10 +173,6 @@
   flex-shrink: 0;
 }
 
-.ing-name {
-  color: var(--text);
-}
-
 /* Nutrition */
 .nutrition-grid {
   display: grid;
@@ -202,7 +185,7 @@
   flex-direction: column;
   align-items: center;
   background: var(--bg);
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 0.65rem 0.5rem;
 }
 
@@ -233,26 +216,46 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 0.65rem;
-  border-radius: 6px;
+  border-radius: 50px;
   font-size: 0.875rem;
-  border: 1px solid var(--border);
-  transition: background 0.15s, border-color 0.15s;
+  border: 0.5px solid var(--border);
+  background: #fafafa;
+  transition: all 0.15s;
+  white-space: nowrap;
+  color: #333;
 }
 
 .shopping-link:hover {
-  background: #F0FFF4;
-  border-color: var(--green-light);
+  color: var(--white);
 }
+
+.shopping-link.tesco { border-color: #e2001a44; color: #c00; }
+.shopping-link.tesco:hover { background: #e2001a; border-color: #e2001a; color: white; }
+
+.shopping-link.supervalu { border-color: #e8630044; color: #c05000; }
+.shopping-link.supervalu:hover { background: #e86300; border-color: #e86300; color: white; }
+
+.shopping-link.lidl { border-color: #003d8f44; color: #003d8f; }
+.shopping-link.lidl:hover { background: #003d8f; border-color: #003d8f; color: white; }
+
+.shopping-link.aldi { border-color: #00529f44; color: #00529f; }
+.shopping-link.aldi:hover { background: #00529f; border-color: #00529f; color: white; }
+
+.shopping-link.asia { border-color: #d4000044; color: #a00; }
+.shopping-link.asia:hover { background: #d40000; border-color: #d40000; color: white; }
 
 .shopping-name {
-  color: var(--text);
   font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.shopping-store {
+.shopping-store-label {
   font-size: 0.75rem;
-  color: var(--green);
-  font-weight: 600;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  flex-shrink: 0;
 }
 
 /* Steps */
@@ -260,7 +263,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.1rem;
+  gap: 1rem;
 }
 
 .step-item {
@@ -272,22 +275,22 @@
 .step-number {
   background: var(--green);
   color: white;
-  width: 2rem;
-  height: 2rem;
+  min-width: 28px;
+  height: 28px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 0.875rem;
+  font-weight: 600;
+  font-size: 13px;
   flex-shrink: 0;
 }
 
 .step-text {
-  padding-top: 0.3rem;
-  font-size: 0.95rem;
-  line-height: 1.65;
-  color: var(--text);
+  padding-top: 0.2rem;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
 }
 
 /* Print button */
@@ -302,16 +305,15 @@
   background: var(--green);
   color: white;
   border: none;
-  border-radius: 8px;
-  padding: 0.75rem 1.75rem;
+  border-radius: 50px;
+  padding: 0.65rem 1.75rem;
   font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.3px;
+  font-weight: 500;
   transition: background 0.2s;
 }
 
 .print-btn:hover {
-  background: var(--green-mid);
+  background: var(--green-dark);
 }
 
 /* Loading / error */
@@ -353,33 +355,17 @@
   }
 }
 
-/* Print styles */
+/* Print */
 .print-only {
   display: none;
 }
 
 @media print {
-  .recipe-page {
-    padding: 0;
-  }
-
-  .recipe-hero {
-    box-shadow: none;
-    border: 1px solid #ccc;
-    break-inside: avoid;
-  }
-
-  .recipe-hero-image {
-    min-height: 140px;
-    print-color-adjust: exact;
-    -webkit-print-color-adjust: exact;
-  }
-
+  .recipe-hero,
   .recipe-section {
     box-shadow: none;
     border: 1px solid #ccc;
     break-inside: avoid;
-    margin-bottom: 0.75rem;
   }
 
   .recipe-body {
@@ -395,9 +381,6 @@
     list-style: disc;
     padding-left: 1.25rem;
     font-size: 0.9rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
   }
 
   .step-number {

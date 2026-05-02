@@ -6,9 +6,11 @@ export default function Navbar() {
     <nav className="navbar no-print">
       <div className="navbar-inner">
         <Link to="/" className="navbar-logo">
-          My Fresh Dinner
+          My Fresh<span>Dinner</span>
         </Link>
-        <span className="navbar-tagline">Simple recipes, fresh every night</span>
+        <div className="nav-links">
+          <a href="/">Recipes</a>
+        </div>
       </div>
     </nav>
   )

@@ -1,16 +1,19 @@
 :root {
-  --green: #2D6A4F;
-  --green-mid: #40916C;
-  --green-light: #74C69D;
-  --orange: #F4A261;
-  --bg: #FAFAF7;
-  --white: #FFFFFF;
-  --text: #333333;
-  --text-muted: #777777;
-  --border: #E5E0D8;
-  --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-  --radius: 12px;
-  --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --green: #2d7a3a;
+  --green-dark: #1e5e2a;
+  --green-light: #e8f5e9;
+  --amber: #f59e0b;
+  --amber-light: #fff8e1;
+  --bg: #f8f7f4;
+  --white: #ffffff;
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --border: #e5e5e5;
+  --border-light: #f0f0f0;
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --radius: 16px;
+  --font: system-ui, -apple-system, sans-serif;
 }
 
 *, *::before, *::after {
@@ -40,10 +43,8 @@ button {
   .no-print {
     display: none !important;
   }
-
   body {
     background: white;
     color: black;
-    font-size: 12pt;
   }
 }
