@@ -7,6 +7,7 @@
   "prepTime": 5,
   "difficulty": "Easy",
   "servings": 2,
+  "image": "recipes/images/vietnamese-lemongrass-chicken-bowl.webp",
   "tags": ["chicken", "asian", "high-protein", "quick-meal", "fat-loss"],
   "ingredients": [
     { "name": "Chicken breast", "quantity": "300g" },

@@ -1,0 +1,45 @@
+{
+  "id": "ketjap-manis-glazed-chicken-tacos",
+  "title": "Ketjap Manis Glazed Chicken Tacos with Charred Corn Salad",
+  "description": "Juicy pan-seared chicken glazed in sweet ketjap manis served in warm tortillas with charred corn, fresh tomato salad, and crème fraîche.",
+  "cuisine": "Asian",
+  "cookingTime": 15,
+  "prepTime": 5,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/ketjap-manis-glazed-chicken-tacos.png",
+  "tags": ["chicken", "asian", "high-protein", "tacos"],
+  "ingredients": [
+    { "name": "Diced Irish chicken breast", "quantity": "260g" },
+    { "name": "Tortillas", "quantity": "4 small" },
+    { "name": "Sweetcorn", "quantity": "1 pack (160g)" },
+    { "name": "Tomato", "quantity": "1" },
+    { "name": "Shallot", "quantity": "1" },
+    { "name": "Salad leaves", "quantity": "60g" },
+    { "name": "Crème fraîche", "quantity": "65g" },
+    { "name": "Ketjap manis", "quantity": "2 tbsp" },
+    { "name": "Sweet chilli sauce", "quantity": "1 tbsp" },
+    { "name": "Olive oil", "quantity": "1 tbsp" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Drain sweetcorn; slice tomato and shallot thinly." },
+    { "step": 2, "instruction": "Heat a dry pan over high heat; char sweetcorn for 5–6 minutes, stirring occasionally." },
+    { "step": 3, "instruction": "Mix charred corn, tomato, shallot, ½ tsp salt, and 1 tbsp oil in a bowl." },
+    { "step": 4, "instruction": "Return pan to high heat with oil; sear chicken until cooked through, 8–10 minutes." },
+    { "step": 5, "instruction": "Remove pan from heat; stir in ketjap manis, sweet chilli sauce, and 1 tsp sugar." },
+    { "step": 6, "instruction": "Warm tortillas for 1–2 minutes; fill with salad leaves, corn salad, glazed chicken, and a spoonful of crème fraîche." }
+  ],
+  "shoppingList": [
+    { "name": "Irish chicken breast", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Tortillas", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Sweetcorn", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Crème fraîche", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Ketjap manis", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" }
+  ],
+  "nutrition": {
+    "calories": 638,
+    "protein": "44g",
+    "carbs": "71g",
+    "fat": "20g"
+  }
+}

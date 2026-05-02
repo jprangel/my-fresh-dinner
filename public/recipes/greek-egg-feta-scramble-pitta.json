@@ -1,0 +1,44 @@
+{
+  "id": "greek-egg-feta-scramble-pitta",
+  "title": "Greek Scrambled Egg & Feta Pitta",
+  "description": "Fluffy scrambled eggs with crumbled feta, wilted spinach, and cherry tomatoes served in a warm wholemeal pitta.",
+  "cuisine": "European",
+  "cookingTime": 8,
+  "prepTime": 3,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/greek-egg-feta-scramble-pitta.png",
+  "tags": ["eggs", "mediterranean", "vegetarian", "high-protein", "quick-meal"],
+  "ingredients": [
+    { "name": "Large eggs", "quantity": "6" },
+    { "name": "Feta cheese", "quantity": "60g" },
+    { "name": "Baby spinach", "quantity": "80g" },
+    { "name": "Cherry tomatoes", "quantity": "150g" },
+    { "name": "Wholemeal pitta bread", "quantity": "2" },
+    { "name": "Olive oil", "quantity": "1 tsp" },
+    { "name": "Dried oregano", "quantity": "1 tsp" },
+    { "name": "Lemon", "quantity": "1/2" },
+    { "name": "Black pepper", "quantity": "to taste" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Halve cherry tomatoes and crack the eggs into a bowl, beating lightly." },
+    { "step": 2, "instruction": "Warm pittas in a toaster or dry pan for 1–2 minutes." },
+    { "step": 3, "instruction": "Heat olive oil in a non-stick pan over medium heat and add cherry tomatoes; cook for 2 minutes." },
+    { "step": 4, "instruction": "Add spinach and stir until just wilted, about 1 minute." },
+    { "step": 5, "instruction": "Pour in eggs and stir gently over low heat until just set, 2–3 minutes." },
+    { "step": 6, "instruction": "Remove from heat, crumble over feta, squeeze over lemon, sprinkle oregano, and serve with warm pitta." }
+  ],
+  "shoppingList": [
+    { "name": "Large eggs", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Feta cheese", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Baby spinach", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Cherry tomatoes", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Wholemeal pitta bread", "store": "Tesco Ireland", "url": "https://www.tesco.ie" }
+  ],
+  "nutrition": {
+    "calories": 530,
+    "protein": "35g",
+    "carbs": "38g",
+    "fat": "24g"
+  }
+}

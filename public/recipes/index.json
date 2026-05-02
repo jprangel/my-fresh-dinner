@@ -14,6 +14,7 @@
     "id": "vietnamese-lemongrass-chicken-bowl",
     "title": "Vietnamese Lemongrass Chicken Bowl",
     "description": "High-protein Vietnamese-style chicken bowl with fragrant lemongrass, fresh vegetables, and brown rice.",
+    "image": "recipes/images/vietnamese-lemongrass-chicken-bowl.webp",
     "cuisine": "Asian",
     "cookingTime": 15,
     "prepTime": 5,
@@ -24,6 +25,7 @@
     "id": "mediterranean-turkey-lentil-peppers",
     "title": "Mediterranean Turkey & Lentil Stuffed Peppers",
     "description": "High-protein Mediterranean stuffed peppers with lean turkey mince, lentils, and herbs baked until golden.",
+    "image": "recipes/images/mediterranean-turkey-lentil-peppers.png",
     "cuisine": "European",
     "cookingTime": 30,
     "prepTime": 10,
@@ -34,10 +36,111 @@
     "id": "japanese-miso-cod-quinoa-veg",
     "title": "Japanese Miso Cod with Quinoa & Sesame Vegetables",
     "description": "Lean baked cod glazed in miso served with quinoa and sesame stir-fried vegetables.",
+    "image": "recipes/images/japanese-miso-cod-quinoa-veg.avif",
     "cuisine": "Asian",
     "cookingTime": 45,
     "prepTime": 10,
     "difficulty": "Medium",
+    "servings": 2
+  },
+  {
+    "id": "spanish-tuna-white-bean-avocado-bowl",
+    "title": "Spanish Tuna, White Bean & Avocado Bowl",
+    "description": "A no-cook Mediterranean bowl packed with protein-rich tuna and white beans, creamy avocado, and a bright lemon dressing.",
+    "cuisine": "European",
+    "cookingTime": 0,
+    "prepTime": 5,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "korean-sesame-prawn-edamame-soba",
+    "title": "Korean Sesame Prawn & Edamame Soba Bowl",
+    "description": "Silky soba noodles tossed with juicy pan-fried prawns, edamame, and a punchy sesame-soy glaze.",
+    "cuisine": "Asian",
+    "cookingTime": 8,
+    "prepTime": 5,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "greek-egg-feta-scramble-pitta",
+    "title": "Greek Scrambled Egg & Feta Pitta",
+    "description": "Fluffy scrambled eggs with crumbled feta, wilted spinach, and cherry tomatoes served in a warm wholemeal pitta.",
+    "cuisine": "European",
+    "cookingTime": 8,
+    "prepTime": 3,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "sweet-soy-salmon-noodles",
+    "title": "Sweet Soy Salmon Noodles with Pan-Fried Bell Pepper",
+    "description": "Heart-healthy salmon in a sweet soy and hoisin marinade tossed with egg noodles, bell pepper, and a kick of sweet chilli.",
+    "cuisine": "Asian",
+    "cookingTime": 15,
+    "prepTime": 5,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "teriyaki-pork-rice-bowl",
+    "title": "Teriyaki Pork Rice Bowl",
+    "description": "Fragrant jasmine rice topped with savoury teriyaki pork mince, tender broccolini, and kale with a sesame soy drizzle.",
+    "cuisine": "Asian",
+    "cookingTime": 15,
+    "prepTime": 5,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "ketjap-manis-glazed-chicken-tacos",
+    "title": "Ketjap Manis Glazed Chicken Tacos with Charred Corn Salad",
+    "description": "Juicy pan-seared chicken glazed in sweet ketjap manis served in warm tortillas with charred corn, fresh tomato salad, and crème fraîche.",
+    "cuisine": "Asian",
+    "cookingTime": 15,
+    "prepTime": 5,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "chilli-garlic-prawn-noodles",
+    "title": "Chilli Garlic Prawn Noodles with Teriyaki Veg & Crunchy Peanuts",
+    "description": "Juicy prawns marinated in chilli and garlic tossed with egg noodles, pak choi, and bell pepper in a teriyaki soy sauce, topped with crushed peanuts.",
+    "cuisine": "Asian",
+    "cookingTime": 20,
+    "prepTime": 10,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "teriyaki-beef-salad",
+    "title": "Teriyaki Beef Salad with Sweet Chilli Couscous",
+    "description": "Tender sliced beef rump in a teriyaki glaze served over sweet chilli couscous with fresh cucumber, tomato, and scallion.",
+    "cuisine": "Asian",
+    "cookingTime": 15,
+    "prepTime": 10,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "spicy-tofu-bibimbap",
+    "title": "Spicy Tofu Bibimbap with Mushrooms & Pickled Carrot",
+    "description": "Korean rice bowl topped with crispy soy-glazed tofu, sautéed kale and mushrooms, quick-pickled carrot ribbons, and a gochujang sesame drizzle.",
+    "cuisine": "Asian",
+    "cookingTime": 15,
+    "prepTime": 5,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "thai-style-chicken-curry",
+    "title": "Thai Style Chicken Curry with Courgette & Fragrant Rice",
+    "description": "Creamy, fragrant Thai red curry with tender diced chicken and courgette simmered in coconut milk, served over lime-zested jasmine rice.",
+    "cuisine": "Asian",
+    "cookingTime": 15,
+    "prepTime": 5,
+    "difficulty": "Easy",
     "servings": 2
   }
 ]

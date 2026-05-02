@@ -7,6 +7,7 @@
   "prepTime": 10,
   "difficulty": "Easy",
   "servings": 2,
+  "image": "recipes/images/mediterranean-turkey-lentil-peppers.png",
   "tags": ["turkey", "mediterranean", "high-protein", "fibre-rich", "fat-loss"],
   "ingredients": [
     { "name": "Turkey mince", "quantity": "250g" },

@@ -1,0 +1,44 @@
+{
+  "id": "teriyaki-pork-rice-bowl",
+  "title": "Teriyaki Pork Rice Bowl",
+  "description": "Fragrant jasmine rice topped with savoury teriyaki pork mince, tender broccolini, and kale with a sesame soy drizzle.",
+  "cuisine": "Asian",
+  "cookingTime": 15,
+  "prepTime": 5,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/teriyaki-pork-rice-bowl.png",
+  "tags": ["pork", "asian", "high-protein", "quick-meal"],
+  "ingredients": [
+    { "name": "Irish pork mince", "quantity": "240g" },
+    { "name": "Jasmine rice", "quantity": "150g" },
+    { "name": "Kale", "quantity": "80g" },
+    { "name": "Broccolini", "quantity": "75g" },
+    { "name": "Teriyaki sauce", "quantity": "2 tbsp" },
+    { "name": "Soy sauce", "quantity": "1 tbsp" },
+    { "name": "Garlic, ginger & lemongrass paste", "quantity": "1 tsp" },
+    { "name": "Aioli", "quantity": "1 tbsp" },
+    { "name": "Sesame seeds", "quantity": "1 tsp" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Bring 300ml salted water to a boil, add rice, cover and simmer for 12 minutes, then rest covered for 12 minutes." },
+    { "step": 2, "instruction": "Strip kale leaves from stems, halve broccolini lengthways, and mix aioli with half the soy sauce in a small bowl." },
+    { "step": 3, "instruction": "Brown pork mince with lemongrass paste over medium-high heat for 5–6 minutes." },
+    { "step": 4, "instruction": "Add broccolini, kale, and sesame seeds; stir in teriyaki sauce, remaining soy sauce, and a splash of water; cover for 6–8 minutes." },
+    { "step": 5, "instruction": "Fluff rice and divide between bowls with the pork and vegetable mixture." },
+    { "step": 6, "instruction": "Drizzle soy aioli over the vegetables and serve immediately." }
+  ],
+  "shoppingList": [
+    { "name": "Irish pork mince", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Jasmine rice", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Broccolini", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Kale", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Teriyaki sauce", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" }
+  ],
+  "nutrition": {
+    "calories": 796,
+    "protein": "35g",
+    "carbs": "80g",
+    "fat": "38g"
+  }
+}

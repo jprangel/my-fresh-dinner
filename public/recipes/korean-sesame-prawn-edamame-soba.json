@@ -1,0 +1,44 @@
+{
+  "id": "korean-sesame-prawn-edamame-soba",
+  "title": "Korean Sesame Prawn & Edamame Soba Bowl",
+  "description": "Silky soba noodles tossed with juicy pan-fried prawns, edamame, and a punchy sesame-soy glaze.",
+  "cuisine": "Asian",
+  "cookingTime": 8,
+  "prepTime": 5,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/korean-sesame-prawn-edamame-soba.png",
+  "tags": ["prawns", "asian", "high-protein", "quick-meal", "muscle-gain"],
+  "ingredients": [
+    { "name": "Raw king prawns", "quantity": "300g" },
+    { "name": "Soba noodles", "quantity": "120g" },
+    { "name": "Frozen edamame (shelled)", "quantity": "150g" },
+    { "name": "Soy sauce", "quantity": "2 tbsp" },
+    { "name": "Sesame oil", "quantity": "1 tsp" },
+    { "name": "Gochujang paste", "quantity": "1 tsp" },
+    { "name": "Garlic clove", "quantity": "1" },
+    { "name": "Spring onions", "quantity": "2" },
+    { "name": "Cucumber", "quantity": "1/2" },
+    { "name": "Sesame seeds", "quantity": "1 tsp" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Cook soba noodles in boiling water for 5 minutes, then rinse under cold water and drain." },
+    { "step": 2, "instruction": "Boil edamame for 3 minutes alongside the noodles, drain and set aside." },
+    { "step": 3, "instruction": "Mix soy sauce, sesame oil, gochujang, and minced garlic to make the sauce." },
+    { "step": 4, "instruction": "Heat a dry pan over high heat and cook prawns for 2–3 minutes until pink and curled." },
+    { "step": 5, "instruction": "Toss noodles and edamame in the sauce, then divide into bowls." },
+    { "step": 6, "instruction": "Top with prawns, sliced cucumber, spring onions, and sesame seeds." }
+  ],
+  "shoppingList": [
+    { "name": "Raw king prawns", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Frozen edamame", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Soba noodles", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" },
+    { "name": "Gochujang paste", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" }
+  ],
+  "nutrition": {
+    "calories": 505,
+    "protein": "45g",
+    "carbs": "52g",
+    "fat": "10g"
+  }
+}

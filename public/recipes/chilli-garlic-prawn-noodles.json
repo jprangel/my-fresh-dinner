@@ -1,0 +1,45 @@
+{
+  "id": "chilli-garlic-prawn-noodles",
+  "title": "Chilli Garlic Prawn Noodles with Teriyaki Veg & Crunchy Peanuts",
+  "description": "Juicy prawns marinated in chilli and garlic tossed with egg noodles, pak choi, and bell pepper in a teriyaki soy sauce, topped with crushed peanuts.",
+  "cuisine": "Asian",
+  "cookingTime": 20,
+  "prepTime": 10,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/chilli-garlic-prawn-noodles.png",
+  "tags": ["prawns", "asian", "high-protein", "noodles", "spicy"],
+  "ingredients": [
+    { "name": "Raw prawns", "quantity": "180g" },
+    { "name": "Egg noodles", "quantity": "150g" },
+    { "name": "Bell pepper", "quantity": "1" },
+    { "name": "Pak choi", "quantity": "1 head" },
+    { "name": "Garlic cloves", "quantity": "2" },
+    { "name": "Lime", "quantity": "1" },
+    { "name": "Peanuts", "quantity": "20g" },
+    { "name": "Dried chilli flakes", "quantity": "1 tsp" },
+    { "name": "Soy sauce", "quantity": "2 tbsp" },
+    { "name": "Teriyaki sauce", "quantity": "1 tbsp" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Cook noodles in boiling salted water for 4–6 minutes; drain and toss with a little oil." },
+    { "step": 2, "instruction": "Slice pepper, chop pak choi, grate garlic, and zest and quarter the lime." },
+    { "step": 3, "instruction": "Mix chilli flakes, lime zest, a drizzle of oil, half the garlic, and half the soy sauce; toss prawns to coat." },
+    { "step": 4, "instruction": "Fry prawns in a hot pan for 4–6 minutes until pink and opaque; set aside." },
+    { "step": 5, "instruction": "Cook pepper and pak choi in the same pan for 4–5 minutes; add remaining garlic for 1 minute." },
+    { "step": 6, "instruction": "Add teriyaki sauce, remaining soy sauce, a splash of water, and lime juice; toss in noodles, top with prawns and crushed peanuts." }
+  ],
+  "shoppingList": [
+    { "name": "Raw prawns", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Egg noodles", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Pak choi", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" },
+    { "name": "Teriyaki sauce", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" },
+    { "name": "Peanuts", "store": "Tesco Ireland", "url": "https://www.tesco.ie" }
+  ],
+  "nutrition": {
+    "calories": 539,
+    "protein": "34g",
+    "carbs": "76g",
+    "fat": "12g"
+  }
+}

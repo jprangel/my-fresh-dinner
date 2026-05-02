@@ -1,0 +1,44 @@
+{
+  "id": "teriyaki-beef-salad",
+  "title": "Teriyaki Beef Salad with Sweet Chilli Couscous",
+  "description": "Tender sliced beef rump in a teriyaki glaze served over sweet chilli couscous with fresh cucumber, tomato, and scallion.",
+  "cuisine": "Asian",
+  "cookingTime": 15,
+  "prepTime": 10,
+  "difficulty": "Easy",
+  "servings": 2,
+  "image": "recipes/images/teriyaki-beef-salad.png",
+  "tags": ["beef", "asian", "high-protein", "salad"],
+  "ingredients": [
+    { "name": "Irish beef rump", "quantity": "250g" },
+    { "name": "Couscous", "quantity": "100g" },
+    { "name": "Cucumber", "quantity": "1/2" },
+    { "name": "Tomatoes", "quantity": "2" },
+    { "name": "Scallions", "quantity": "2" },
+    { "name": "Onion", "quantity": "1" },
+    { "name": "Lime", "quantity": "1" },
+    { "name": "Teriyaki sauce", "quantity": "2 tbsp" },
+    { "name": "Sweet chilli sauce", "quantity": "1 tbsp" },
+    { "name": "Beef stock", "quantity": "1 cube" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Dissolve stock in 200ml boiling water; remove from heat, stir in couscous, cover for 8–10 minutes." },
+    { "step": 2, "instruction": "Slice onion thinly, cube tomatoes, dice cucumber, quarter lime, and slice scallions." },
+    { "step": 3, "instruction": "Heat oil in a pan; thinly slice beef and cook 1–2 minutes per side; season with salt and pepper." },
+    { "step": 4, "instruction": "Add onion to the pan, fry 1–2 minutes, then stir in teriyaki sauce and 50ml water; warm 2–3 minutes." },
+    { "step": 5, "instruction": "Fluff couscous with a fork; mix in sweet chilli sauce, cucumber, tomato, and lime juice." },
+    { "step": 6, "instruction": "Divide couscous between bowls, top with beef and teriyaki sauce, and garnish with scallions and lime wedges." }
+  ],
+  "shoppingList": [
+    { "name": "Irish beef rump", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Couscous", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Teriyaki sauce", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" },
+    { "name": "Beef stock", "store": "Tesco Ireland", "url": "https://www.tesco.ie" }
+  ],
+  "nutrition": {
+    "calories": 573,
+    "protein": "37g",
+    "carbs": "65g",
+    "fat": "18g"
+  }
+}
