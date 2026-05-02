@@ -1,0 +1,44 @@
+{
+  "id": "mediterranean-turkey-lentil-peppers",
+  "title": "Mediterranean Turkey & Lentil Stuffed Peppers",
+  "description": "High-protein Mediterranean stuffed peppers with lean turkey mince, lentils, and herbs baked until golden.",
+  "cuisine": "European",
+  "cookingTime": 30,
+  "prepTime": 10,
+  "difficulty": "Easy",
+  "servings": 2,
+  "tags": ["turkey", "mediterranean", "high-protein", "fibre-rich", "fat-loss"],
+  "ingredients": [
+    { "name": "Turkey mince", "quantity": "250g" },
+    { "name": "Bell peppers", "quantity": "2" },
+    { "name": "Cooked lentils", "quantity": "100g" },
+    { "name": "Onion", "quantity": "1 small" },
+    { "name": "Garlic clove", "quantity": "1" },
+    { "name": "Tomato paste", "quantity": "1 tbsp" },
+    { "name": "Paprika", "quantity": "1 tsp" },
+    { "name": "Oregano", "quantity": "1 tsp" },
+    { "name": "Olive oil", "quantity": "1 tbsp" },
+    { "name": "Feta cheese", "quantity": "30g (optional)" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Preheat oven to 200°C and halve bell peppers." },
+    { "step": 2, "instruction": "Heat olive oil, sauté onion and garlic until soft." },
+    { "step": 3, "instruction": "Add turkey mince and cook until browned." },
+    { "step": 4, "instruction": "Stir in lentils, tomato paste, paprika, and oregano." },
+    { "step": 5, "instruction": "Fill peppers with mixture and bake for 20 minutes." },
+    { "step": 6, "instruction": "Top with feta cheese before serving." }
+  ],
+  "shoppingList": [
+    { "name": "Turkey mince", "store": "SuperValu Ireland", "url": "https://shop.supervalu.ie" },
+    { "name": "Bell peppers", "store": "SuperValu Ireland", "url": "https://shop.supervalu.ie" },
+    { "name": "Lentils", "store": "SuperValu Ireland", "url": "https://shop.supervalu.ie" },
+    { "name": "Onion", "store": "SuperValu Ireland", "url": "https://shop.supervalu.ie" },
+    { "name": "Feta cheese", "store": "SuperValu Ireland", "url": "https://shop.supervalu.ie" }
+  ],
+  "nutrition": {
+    "calories": 560,
+    "protein": "45g",
+    "carbs": "38g",
+    "fat": "20g"
+  }
+}

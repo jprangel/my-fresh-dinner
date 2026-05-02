@@ -1,0 +1,46 @@
+{
+  "id": "vietnamese-lemongrass-chicken-bowl",
+  "title": "Vietnamese Lemongrass Chicken Bowl",
+  "description": "High-protein Vietnamese-style chicken bowl with fragrant lemongrass, fresh vegetables, and brown rice.",
+  "cuisine": "Asian",
+  "cookingTime": 15,
+  "prepTime": 5,
+  "difficulty": "Easy",
+  "servings": 2,
+  "tags": ["chicken", "asian", "high-protein", "quick-meal", "fat-loss"],
+  "ingredients": [
+    { "name": "Chicken breast", "quantity": "300g" },
+    { "name": "Soy sauce", "quantity": "1 tbsp" },
+    { "name": "Fish sauce", "quantity": "1 tsp" },
+    { "name": "Honey", "quantity": "1 tsp" },
+    { "name": "Garlic clove", "quantity": "1" },
+    { "name": "Lemongrass paste", "quantity": "1 tsp" },
+    { "name": "Olive oil", "quantity": "1 tsp" },
+    { "name": "Microwave brown rice", "quantity": "120g" },
+    { "name": "Carrot", "quantity": "1" },
+    { "name": "Cucumber", "quantity": "1/2" },
+    { "name": "Fresh coriander", "quantity": "handful" },
+    { "name": "Lime", "quantity": "1/2" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Slice chicken thinly and prepare vegetables." },
+    { "step": 2, "instruction": "Mix soy sauce, fish sauce, honey, garlic, and lemongrass paste." },
+    { "step": 3, "instruction": "Heat olive oil in a pan and cook chicken for 5–6 minutes until golden." },
+    { "step": 4, "instruction": "Add sauce and cook until it coats the chicken." },
+    { "step": 5, "instruction": "Microwave brown rice according to instructions." },
+    { "step": 6, "instruction": "Assemble bowls with rice, chicken, fresh vegetables, coriander, and lime juice." }
+  ],
+  "shoppingList": [
+    { "name": "Chicken breast", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Brown rice", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Carrot", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Cucumber", "store": "Tesco Ireland", "url": "https://www.tesco.ie" },
+    { "name": "Fresh coriander", "store": "Tesco Ireland", "url": "https://www.tesco.ie" }
+  ],
+  "nutrition": {
+    "calories": 540,
+    "protein": "42g",
+    "carbs": "48g",
+    "fat": "16g"
+  }
+}

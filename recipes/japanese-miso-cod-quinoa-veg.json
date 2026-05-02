@@ -1,0 +1,44 @@
+{
+  "id": "japanese-miso-cod-quinoa-veg",
+  "title": "Japanese Miso Cod with Quinoa & Sesame Vegetables",
+  "description": "Lean baked cod glazed in miso served with quinoa and sesame stir-fried vegetables.",
+  "cuisine": "Asian",
+  "cookingTime": 45,
+  "prepTime": 10,
+  "difficulty": "Medium",
+  "servings": 2,
+  "tags": ["cod", "asian", "high-protein", "healthy-fats", "muscle-gain"],
+  "ingredients": [
+    { "name": "Cod fillets", "quantity": "300g" },
+    { "name": "White miso paste", "quantity": "1 tbsp" },
+    { "name": "Soy sauce", "quantity": "1 tbsp" },
+    { "name": "Honey", "quantity": "1 tsp" },
+    { "name": "Sesame oil", "quantity": "1 tsp" },
+    { "name": "Quinoa", "quantity": "120g" },
+    { "name": "Broccoli", "quantity": "100g" },
+    { "name": "Courgette", "quantity": "1" },
+    { "name": "Sesame seeds", "quantity": "1 tsp" },
+    { "name": "Olive oil", "quantity": "1 tsp" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Cook quinoa according to package instructions (about 15 minutes)." },
+    { "step": 2, "instruction": "Mix miso, soy sauce, and honey, then coat cod fillets." },
+    { "step": 3, "instruction": "Bake cod at 200°C for 12–15 minutes." },
+    { "step": 4, "instruction": "Stir-fry broccoli and courgette in sesame oil." },
+    { "step": 5, "instruction": "Plate quinoa, add cod and vegetables." },
+    { "step": 6, "instruction": "Sprinkle sesame seeds before serving." }
+  ],
+  "shoppingList": [
+    { "name": "Cod fillets", "store": "Lidl Ireland", "url": "https://www.lidl.ie" },
+    { "name": "Quinoa", "store": "Lidl Ireland", "url": "https://www.lidl.ie" },
+    { "name": "Broccoli", "store": "Lidl Ireland", "url": "https://www.lidl.ie" },
+    { "name": "Courgette", "store": "Lidl Ireland", "url": "https://www.lidl.ie" },
+    { "name": "Miso paste", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" }
+  ],
+  "nutrition": {
+    "calories": 580,
+    "protein": "38g",
+    "carbs": "45g",
+    "fat": "18g"
+  }
+}
