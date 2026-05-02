@@ -9,5 +9,35 @@
     "prepTime": 10,
     "difficulty": "Easy",
     "servings": 2
+  },
+  {
+    "id": "vietnamese-lemongrass-chicken-bowl",
+    "title": "Vietnamese Lemongrass Chicken Bowl",
+    "description": "High-protein Vietnamese-style chicken bowl with fragrant lemongrass, fresh vegetables, and brown rice.",
+    "cuisine": "Asian",
+    "cookingTime": 15,
+    "prepTime": 5,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "mediterranean-turkey-lentil-peppers",
+    "title": "Mediterranean Turkey & Lentil Stuffed Peppers",
+    "description": "High-protein Mediterranean stuffed peppers with lean turkey mince, lentils, and herbs baked until golden.",
+    "cuisine": "European",
+    "cookingTime": 30,
+    "prepTime": 10,
+    "difficulty": "Easy",
+    "servings": 2
+  },
+  {
+    "id": "japanese-miso-cod-quinoa-veg",
+    "title": "Japanese Miso Cod with Quinoa & Sesame Vegetables",
+    "description": "Lean baked cod glazed in miso served with quinoa and sesame stir-fried vegetables.",
+    "cuisine": "Asian",
+    "cookingTime": 45,
+    "prepTime": 10,
+    "difficulty": "Medium",
+    "servings": 2
   }
 ]
