@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Fresh Dinner</title>
+    <script>
+      (function() {
+        var r = new URLSearchParams(window.location.search).get('r');
+        if (r) window.history.replaceState(null, '', '/my-fresh-dinner' + r);
+      })();
+    </script>
+    <script type="module" crossorigin src="/my-fresh-dinner/assets/index-BBtJVq3x.js"></script>
+    <link rel="stylesheet" crossorigin href="/my-fresh-dinner/assets/index-CPHl2hoy.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

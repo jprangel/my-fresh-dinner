@@ -1,0 +1,44 @@
+{
+  "id": "thai-peanut-salmon",
+  "title": "Thai Peanut Salmon with Veg & Rice",
+  "description": "Asian-inspired salmon with a rich peanut sauce, steamed broccoli and carrots, served over brown rice.",
+  "cuisine": "Asian",
+  "cookingTime": 40,
+  "prepTime": 10,
+  "difficulty": "Easy",
+  "servings": 2,
+  "tags": ["salmon", "asian", "healthy", "gluten-free"],
+  "ingredients": [
+    { "name": "Salmon fillets", "quantity": "2 (~240g total)" },
+    { "name": "Brown rice", "quantity": "120g" },
+    { "name": "Broccoli", "quantity": "1 head" },
+    { "name": "Carrot", "quantity": "1" },
+    { "name": "Peanut butter", "quantity": "1 tbsp" },
+    { "name": "Soy sauce", "quantity": "1 tbsp" },
+    { "name": "Honey", "quantity": "1 tsp" },
+    { "name": "Grated ginger", "quantity": "1 tsp" },
+    { "name": "Garlic clove", "quantity": "1" },
+    { "name": "Sesame oil", "quantity": "1 tsp" }
+  ],
+  "steps": [
+    { "step": 1, "instruction": "Cook brown rice for 20–25 minutes following package instructions." },
+    { "step": 2, "instruction": "Steam broccoli florets and sliced carrot for 5–6 minutes until tender." },
+    { "step": 3, "instruction": "Pan-sear the salmon fillets for 4–5 minutes per side over medium-high heat." },
+    { "step": 4, "instruction": "Mix together peanut butter, soy sauce, honey, grated ginger, minced garlic, and sesame oil to make the sauce." },
+    { "step": 5, "instruction": "Pour the peanut sauce over the salmon and cook for 2 more minutes, letting it coat the fish." },
+    { "step": 6, "instruction": "Serve salmon and sauce over a bed of rice with the steamed vegetables on the side." }
+  ],
+  "shoppingList": [
+    { "name": "Salmon fillets", "store": "Tesco Ireland", "url": "https://www.tesco.ie/groceries/en-IE/products/299965786" },
+    { "name": "Brown rice", "store": "Tesco Ireland", "url": "https://www.tesco.ie/groceries/en-IE/products/254879900" },
+    { "name": "Broccoli", "store": "Tesco Ireland", "url": "https://www.tesco.ie/groceries/en-IE/products/250258539" },
+    { "name": "Peanut butter", "store": "Tesco Ireland", "url": "https://www.tesco.ie/groceries/en-IE/products/254879812" },
+    { "name": "Soy sauce", "store": "Tesco Ireland", "url": "https://www.tesco.ie/groceries/en-IE/products/254879905" }
+  ],
+  "nutrition": {
+    "calories": 590,
+    "protein": "38g",
+    "carbs": "50g",
+    "fat": "22g"
+  }
+}
