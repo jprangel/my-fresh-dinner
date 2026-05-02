@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Fresh Dinner</title>
+    <script>
+      (function() {
+        var r = new URLSearchParams(window.location.search).get('r');
+        if (r) window.history.replaceState(null, '', '/my-fresh-dinner' + r);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
