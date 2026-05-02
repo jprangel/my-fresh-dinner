@@ -3,7 +3,14 @@ import RecipeCard from '../components/RecipeCard'
 import FilterBar from '../components/FilterBar'
 import './HomePage.css'
 
-const STORES = ['Tesco', 'SuperValu', 'Lidl', 'Aldi', 'Asia Market']
+const STORES = [
+  { name: 'Tesco', favicon: 'https://www.tesco.ie/favicon.ico' },
+  { name: 'SuperValu', favicon: 'https://shop.supervalu.ie/favicon.ico' },
+  { name: 'Lidl', favicon: 'https://www.lidl.ie/favicon.ico' },
+  { name: 'Aldi', favicon: 'https://www.aldi.ie/favicon.ico' },
+  { name: 'Dunnes Stores', favicon: 'https://www.dunnesstoresgrocery.com/favicon.ico' },
+  { name: 'Asia Market', favicon: 'https://www.asiamarket.ie/favicon.ico' },
+]
 
 export default function HomePage() {
   const [recipes, setRecipes] = useState([])
@@ -33,7 +40,15 @@ export default function HomePage() {
           <a href="#recipes" className="hero-btn">Browse Recipes</a>
           <div className="hero-tags">
             {STORES.map(s => (
-              <span key={s} className="hero-tag">🛒 {s}</span>
+              <span key={s.name} className="hero-tag">
+                <img
+                  src={s.favicon}
+                  alt={s.name}
+                  className="hero-tag-favicon"
+                  onError={e => { e.target.style.display = 'none' }}
+                />
+                {s.name}
+              </span>
             ))}
           </div>
         </div>
