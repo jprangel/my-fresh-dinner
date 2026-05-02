@@ -8,7 +8,7 @@ export default function RecipePage() {
   const [error, setError] = useState(false)
 
   useEffect(() => {
-    fetch(`/recipes/${id}.json`)
+    fetch(`${import.meta.env.BASE_URL}recipes/${id}.json`)
       .then(r => { if (!r.ok) throw new Error(); return r.json() })
       .then(setRecipe)
       .catch(() => setError(true))

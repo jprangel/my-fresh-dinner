@@ -17,7 +17,7 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/recipes/index.json')
+    fetch(`${import.meta.env.BASE_URL}recipes/index.json`)
       .then(r => r.json())
       .then(data => {
         setRecipes(data)
