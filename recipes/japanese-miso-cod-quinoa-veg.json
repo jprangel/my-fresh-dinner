@@ -30,11 +30,11 @@
     { "step": 6, "instruction": "Sprinkle sesame seeds before serving." }
   ],
   "shoppingList": [
-    { "name": "Cod fillets", "store": "Lidl Ireland", "url": "https://www.lidl.ie" },
-    { "name": "Quinoa", "store": "Lidl Ireland", "url": "https://www.lidl.ie" },
-    { "name": "Broccoli", "store": "Lidl Ireland", "url": "https://www.lidl.ie" },
-    { "name": "Courgette", "store": "Lidl Ireland", "url": "https://www.lidl.ie" },
-    { "name": "Miso paste", "store": "Asia Market Ireland", "url": "https://www.asiamarket.ie" }
+    { "name": "Cod fillets", "store": "Dunnes Stores", "url": "https://www.dunnesstoresgrocery.com/sm/delivery/rsid/258/product/dunnes-stores-skinless-cod-fillets-250gm-id-100798375" },
+    { "name": "Quinoa", "store": "Dunnes Stores", "url": "https://www.dunnesstoresgrocery.com/sm/delivery/rsid/258/product/dunnes-stores-wholefoods-quinoa-300g-id-100803059" },
+    { "name": "Broccoli", "store": "Dunnes Stores", "url": "https://www.dunnesstoresgrocery.com/sm/delivery/rsid/258/product/dunnes-stores-fresh-broccoli-id-100807377" },
+    { "name": "Courgette", "store": "Dunnes Stores", "url": "https://www.dunnesstoresgrocery.com/sm/delivery/rsid/258/product/dunnes-stores-organic-courgette-400g-id-100827279" },
+    { "name": "Miso paste", "store": "Tesco Ireland", "url": "https://www.tesco.ie/shop/en-IE/products/304368111" }
   ],
   "nutrition": {
     "calories": 580,
