@@ -8,6 +8,7 @@ const STORE_CLASS = {
   'Lidl Ireland': 'lidl',
   'Aldi Ireland': 'aldi',
   'Asia Market Ireland': 'asia',
+  'Dunnes Stores': 'dunnes',
 }
 
 export default function RecipePage() {

@@ -244,6 +244,9 @@
 .shopping-link.asia { border-color: #d4000044; color: #a00; }
 .shopping-link.asia:hover { background: #d40000; border-color: #d40000; color: white; }
 
+.shopping-link.dunnes { border-color: #c8102e44; color: #c8102e; }
+.shopping-link.dunnes:hover { background: #c8102e; border-color: #c8102e; color: white; }
+
 .shopping-name {
   font-weight: 500;
   flex: 1;

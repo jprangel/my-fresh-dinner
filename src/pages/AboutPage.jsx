@@ -43,6 +43,7 @@ const SHOPS = [
   { name: 'Lidl Ireland', url: 'lidl.ie', favicon: 'https://www.lidl.ie/favicon.ico' },
   { name: 'Aldi Ireland', url: 'aldi.ie', favicon: 'https://www.aldi.ie/favicon.ico' },
   { name: 'Asia Market', url: 'asiamarket.ie', favicon: 'https://www.asiamarket.ie/favicon.ico', badge: 'Asian recipes' },
+  { name: 'Dunnes Stores', url: 'dunnesstoresgrocery.com', favicon: 'https://www.dunnesstoresgrocery.com/favicon.ico' },
 ]
 
 export default function AboutPage() {
